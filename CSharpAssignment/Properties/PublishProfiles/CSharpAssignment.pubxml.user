@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\StockTickerWS</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CSharpAssignment.dll">
+      <publishTime>09/30/2016 09:17:27</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/24/2016 13:07:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/24/2016 13:07:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/24/2016 16:38:35</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="LoginWS.asmx">
+      <publishTime>09/28/2016 15:25:40</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/25/2016 20:14:40</publishTime>
+    </File>
+    <File Include="StockExchangeWS.asmx">
+      <publishTime>09/28/2016 15:25:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/30/2016 09:17:28</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

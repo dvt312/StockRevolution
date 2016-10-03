@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Log in";
+}
+
+<h2>@ViewBag.Title.</h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="loginFormSection">
+            <form id="loginForm" target="my_iframe" action="javascript:void(0);" method="get">
+                <label id="informationlabel" class="informationMsg"></label><br />
+                <div class="log-user-pass form-group">
+                    <label for="username">Username</label>
+                    <input class="has-error form-control" style="margin-right: 10px" name="user" id="username" type="text" placeholder="Username" required />
+                    <label for="userpass">Password</label>
+                    <input class="form-control" name="pass" id="userpass" type="password" placeholder="Password" required />
+                </div>
+
+                <input class="btn btn-primary" name="login" id="loginButton" type="button" value="Login" />
+                <div id="ajaxloader" style="display: none"></div>
+
+                <hr />
+            </form>
+        </section>
+    </div>
+</div>
+
+<script>
+    var loginURLs =
+        {
+            loginUser: '@Url.Action("LoginUser", "Home")',
+            stockListURL: '@Url.Action("List", "Stock")',
+            setTokenSessionURL: '@Url.Action("SetTokenSession", "Home")'
+        };
+    $('#username').keypress(CommonUtils.AvoidSpecialChars);
+    $('#loginButton').click(function (event) { UserLoginHandler.LoginUserFunction(loginURLs); });
+    CommonUtils.AddEnterListener('loginForm', function (event) { UserLoginHandler.LoginUserFunction(loginURLs); });
+</script>

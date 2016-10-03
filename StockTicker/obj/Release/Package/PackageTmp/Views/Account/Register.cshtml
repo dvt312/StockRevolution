@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Register User";
+}
+
+<h2>@ViewBag.Title.</h2>
+<section id="registerFormSection">
+    <form id="registerForm" target="my_iframe" action="javascript:void(0);" method="get">
+        <label id="informationlabel" class="informationMsg"></label><br />
+        <div class="personal-information-section form-group">
+            <label for="doc-id-field">Document ID</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="doc-id-field" type="number" placeholder="Document ID" required />
+            <label for="name-field">Name</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="name-field" type="text" placeholder="Name" required />
+            <label for="lastname-field">Last Name</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="lastname-field" type="text" placeholder="Lastname" required />
+            <label for="mail-field">Mail</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="mail-field" type="email" placeholder="Mail" required />
+            <label for="phone-field">Phone</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="phone-field" type="tel" placeholder="Phone" required />
+        </div>
+        <div class="log-user-pass form-group">
+            <label for="username">Username</label>
+            <input class="has-error form-control" style="margin-right: 10px" name="user" id="username-field" type="text" placeholder="Username" required />
+            <label for="userpass">Password</label>
+            <input class="form-control" name="pass" id="userpass-field" type="password" placeholder="Password" required />
+        </div>
+
+        <input class="btn btn-primary" name="login" id="registerButton" type="button" value="Register" />
+        <div id="ajaxloader" style="display: none"></div>
+
+        <hr />
+    </form>
+</section>
+<script>
+    var registerUserURL =
+        {
+            registerUser: '@Url.Action("RegisterUser", "Home")',
+            urlRedirect: '@Url.Action("Index", "Home")'
+        };
+    $('#username-field').keypress(CommonUtils.AvoidSpecialChars);
+    $('#name-field').keypress(CommonUtils.AvoidSpecialChars);
+    $('#lastname-field').keypress(CommonUtils.AvoidSpecialChars);
+    $('#registerButton').click(function (event) { UserLoginHandler.RegisterUserFunction(registerUserURL); });
+    CommonUtils.AddEnterListener('registerForm', function (event) { UserLoginHandler.RegisterUserFunction(registerUserURL); });
+</script>

@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.dataTables_length {
+    display: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0 0.5em;
+}
+
+#all-stock-list-grid_wrapper .dataTables_info {
+    display: none;
+}
+
+.notification-icon-fa {
+    font-size: 20px;
+}
+
+.sad-error
+{
+    font-size: 26em;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-inverse {
+    background-color: #1a3b5d;
+    border-color: #02203e;
+}

@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\StockTickerUI</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/25/2016 12:08:11</publishTime>
+    </File>
+    <File Include="bin/CSharpAssignment.dll">
+      <publishTime>09/30/2016 09:17:27</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/24/2016 13:07:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/24/2016 13:07:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>09/25/2016 12:08:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>09/25/2016 12:08:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>09/25/2016 12:08:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>09/25/2016 12:08:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>09/25/2016 12:08:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>09/25/2016 12:08:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>09/25/2016 12:08:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>09/25/2016 12:08:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>09/25/2016 12:08:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>09/25/2016 12:08:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>09/25/2016 12:08:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>09/25/2016 12:08:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/25/2016 12:08:08</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/24/2016 16:38:35</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>09/25/2016 12:08:22</publishTime>
+    </File>
+    <File Include="bin/PDQ.Framework.Web.CssIcons.dll">
+      <publishTime>09/26/2016 12:00:42</publishTime>
+    </File>
+    <File Include="bin/StockTicker.dll">
+      <publishTime>09/30/2016 09:17:41</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/24/2016 16:49:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/25/2016 12:08:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/25/2016 12:08:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/25/2016 12:08:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/25/2016 12:08:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/25/2016 12:08:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/25/2016 12:08:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/25/2016 12:08:06</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/25/2016 12:08:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-select.min.css">
+      <publishTime>09/26/2016 19:33:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Content/dataTables.bootstrap.css">
+      <publishTime>09/26/2016 11:57:17</publishTime>
+    </File>
+    <File Include="Content/dataTables.bootstrap.min.css">
+      <publishTime>09/26/2016 11:57:17</publishTime>
+    </File>
+    <File Include="Content/datatables.css">
+      <publishTime>09/26/2016 11:46:35</publishTime>
+    </File>
+    <File Include="Content/datatables.min.css">
+      <publishTime>09/26/2016 11:46:35</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="Content/jquery.dataTables.css">
+      <publishTime>09/26/2016 17:47:35</publishTime>
+    </File>
+    <File Include="Content/jquery.dataTables.min.css">
+      <publishTime>09/26/2016 17:47:35</publishTime>
+    </File>
+    <File Include="Content/jquery.dataTables_themeroller.css">
+      <publishTime>09/26/2016 11:57:17</publishTime>
+    </File>
+    <File Include="Content/jquery.notify.css">
+      <publishTime>09/28/2016 11:30:15</publishTime>
+    </File>
+    <File Include="Content/loadingoverlay.css">
+      <publishTime>09/28/2016 09:41:21</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/28/2016 09:46:04</publishTime>
+    </File>
+    <File Include="Content/tiktok.css">
+      <publishTime>09/28/2016 09:51:44</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/25/2016 12:09:23</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>09/25/2016 13:48:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/25/2016 12:09:23</publishTime>
+    </File>
+    <File Include="images/sort_asc.png">
+      <publishTime>09/26/2016 12:00:09</publishTime>
+    </File>
+    <File Include="images/sort_asc_disabled.png">
+      <publishTime>09/26/2016 12:00:09</publishTime>
+    </File>
+    <File Include="images/sort_both.png">
+      <publishTime>09/26/2016 12:00:09</publishTime>
+    </File>
+    <File Include="images/sort_desc.png">
+      <publishTime>09/26/2016 12:00:09</publishTime>
+    </File>
+    <File Include="images/sort_desc_disabled.png">
+      <publishTime>09/26/2016 12:00:09</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/28/2016 19:33:07</publishTime>
+    </File>
+    <File Include="Scripts/accounting.min.js">
+      <publishTime>09/27/2016 09:33:12</publishTime>
+    </File>
+    <File Include="Scripts/App/CommonUtils.js">
+      <publishTime>09/28/2016 19:57:17</publishTime>
+    </File>
+    <File Include="Scripts/App/MessageProcessor.js">
+      <publishTime>09/28/2016 19:57:22</publishTime>
+    </File>
+    <File Include="Scripts/App/Notifications.js">
+      <publishTime>09/28/2016 19:57:31</publishTime>
+    </File>
+    <File Include="Scripts/App/StockHandler.js">
+      <publishTime>09/28/2016 19:57:41</publishTime>
+    </File>
+    <File Include="Scripts/App/StockMapper.js">
+      <publishTime>09/28/2016 19:57:45</publishTime>
+    </File>
+    <File Include="Scripts/App/UserLoginHandler.js">
+      <publishTime>09/28/2016 23:44:35</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-select.min.js">
+      <publishTime>09/26/2016 19:33:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/25/2016 13:48:21</publishTime>
+    </File>
+    <File Include="Scripts/datatables.js">
+      <publishTime>09/26/2016 11:46:45</publishTime>
+    </File>
+    <File Include="Scripts/datatables.min.js">
+      <publishTime>09/26/2016 11:46:45</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/25/2016 12:09:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/25/2016 12:09:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/25/2016 12:09:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.dataTables.js">
+      <publishTime>09/26/2016 19:48:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.dataTables.min.js">
+      <publishTime>09/26/2016 19:48:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery.notify.min.js">
+      <publishTime>09/27/2016 09:58:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/25/2016 12:09:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/25/2016 12:09:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/25/2016 12:09:27</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/25/2016 12:09:27</publishTime>
+    </File>
+    <File Include="Scripts/loadingoverlay.js">
+      <publishTime>09/28/2016 09:41:34</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/25/2016 12:09:27</publishTime>
+    </File>
+    <File Include="Scripts/tiktok.js">
+      <publishTime>09/28/2016 08:42:04</publishTime>
+    </File>
+    <File Include="Scripts/tiktok.min.js">
+      <publishTime>09/28/2016 08:42:04</publishTime>
+    </File>
+    <File Include="Scripts/tiktok.min.js.map">
+      <publishTime>09/28/2016 08:42:04</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/28/2016 19:57:53</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>09/28/2016 20:05:28</publishTime>
+    </File>
+    <File Include="Views/Account/LoginError.cshtml">
+      <publishTime>09/28/2016 20:01:15</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>09/28/2016 20:12:12</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/28/2016 20:01:31</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/28/2016 20:04:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>09/28/2016 13:19:32</publishTime>
+    </File>
+    <File Include="Views/Stock/List.cshtml">
+      <publishTime>09/28/2016 20:10:38</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/26/2016 12:22:15</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/25/2016 12:09:23</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/30/2016 09:17:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

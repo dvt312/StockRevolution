@@ -1,0 +1,18 @@
+﻿@{
+    var icon = "fa-info-circle";
+}
+<div class="error-div no-padding">
+    <i class="fa @icon sad-error"></i>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        Notifications.ShowOverlayErrorNotification(
+            'Authentication Error',
+            'You are not logged in the application, please log in.',
+            UserLoginHandler.RedirectToURL,
+            { 'urlRedirect': '@Url.Action("Index", "Home")' });
+    });
+
+</script>
